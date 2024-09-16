@@ -39,7 +39,7 @@ const ToDo = () => {
     });
   };
 
-  // Toggle for Completed task
+  // Toggle for change iscomplete state and return todos
 
   const toggle = (id) => {
     setToDoList((prevToDo) => {
